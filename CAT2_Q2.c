@@ -7,7 +7,7 @@ Name: Mucheke Davis Mwangi
 
 int main() {
     // Define a 2D array data structure named "scores"
-    int scores[2][2] = { // Adjusted dimensions to match the number of initializers
+    int scores[2][2] = {
         {65, 92}, {84, 72},
         {35, 59}, {70, 67}
     };
