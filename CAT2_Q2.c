@@ -1,23 +1,20 @@
 /*Ref no:CT101/G/22766/24
 Name: Mucheke Davis Mwangi
 */
-#include <stdio.h>
-
-#include <stdio.h>
-
-int main() {
-    // Define a 2D array data structure named "scores"
+#include <stdio.h> 
+int main(){
+    // Declare and initialize the 2D array
     int scores[2][2] = {
-        {65, 92}, {84, 72},
-        {35, 59}, {70, 67}
+        {6592, 3570},
+        {8472, 5967}
     };
 
-    // Print the elements of the "scores" array using a nested for loop
-    for (int i = 0; i < 4; i++) { // Adjusted the outer loop to match the number of rows
+    // Use nested for loops to print the elements
+    for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
-            printf("%d ", scores[i][j]);
+            printf("%d ", scores[i][j]); // Print each element
         }
-        printf("\n");
+        printf("\n"); // New line after each row
     }
 
     return 0;
