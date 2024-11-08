@@ -5,8 +5,8 @@ Name: Mucheke Davis Mwangi
 int main(){
     // Declare and initialize the 2D array
     int scores[4][2] = {
-        {65,92},{35,70},
-        {84,72},{59,67}
+        {65,92},{84,72},
+        {35,70},{59,67}
     };
 
     // Use nested for loops to print the elements
